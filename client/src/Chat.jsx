@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import Navbar from './Navbar';
 
 
-const genAI = new GoogleGenerativeAI("AIzaSyBeF00LHqn4BobMADnxLXCpccmLxHuR9cs");
+const genAI = new GoogleGenerativeAI("MY_SECRET_TOKEN_NEW");
 const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
 const Chat = () => {
